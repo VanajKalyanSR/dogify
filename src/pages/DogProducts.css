@@ -1,0 +1,46 @@
+.dog-products {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.product-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.product-card a:hover {
+  text-decoration: underline;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

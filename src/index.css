@@ -1,0 +1,49 @@
+/* Base styles */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --text-primary: #333333;
+  --text-secondary: #6c757d;
+  --accent-color: #0066cc;
+  --border-color: #dee2e6;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme */
+.dark-theme {
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --accent-color: #4d97ff;
+  --border-color: #2d2d2d;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* You can add more global styles as needed */

@@ -1,0 +1,61 @@
+.home {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Changed text color to white for better contrast */
+  background-color: #333; /* Added background color */
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters select, .filters button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.breed-results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.breed-card {
+  background-color: #444; /* Changed background color for better contrast */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff; /* Changed text color to white for better contrast */
+}
+
+.breed-card h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.breed-card p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.filter-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.filter-button:hover {
+  background-color: #0056b3;
+}
